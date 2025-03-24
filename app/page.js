@@ -8,6 +8,7 @@ import Podcast from '@/components/Podcast'
 import NewsArticles from '@/components/news_and_articles'
 import Resources from '@/components/resources'
 import ContactUs from '@/components/ContactUs'
+import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
 
 function Page() {
   const [showButton, setShowButton] = useState(false);
@@ -36,6 +37,9 @@ function Page() {
         </button>
       )}
 
+      <div className='max-w-screen h-screen fixed top-0 left-0'>
+            <BackgroundGradientAnimation/>
+      </div>
       <Landing />
       <Team />
       <Quotes />

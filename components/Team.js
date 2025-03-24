@@ -103,7 +103,7 @@ export default function Team() {
     <div className={`z-10 text-5xl text-[#CBC6C6] w-full text-center ${scriptFont.className}`}>The Team</div>
     <AnimatedTestimonials testimonials={testimonials}/>
     </div>
-    {/* <BackgroundGradientAnimation/> */}
-        </div>
+        {/* <BackgroundGradientAnimation/> */}
+    </div>
   );
 }

@@ -30,7 +30,7 @@ const resourcesData = [
 
 const Resources = () => {
     return (
-        <div className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white px-6 py-12">
+        <div className="relative flex flex-col items-center justify-evenly min-h-screen text-white px-6 py-12">
             <h1 className={`text-4xl sm:text-5xl mb-8 text-[#E8DFE7] ${scriptFont.className} z-10 text-center`}>
                 Resources
             </h1>
@@ -63,10 +63,9 @@ const Resources = () => {
                 ))}
             </div>
 
-            {/* Background Animation */}
-            <div className='absolute inset-0'>
+            {/* <div className='absolute'>
                 <BackgroundGradientAnimation />
-            </div>
+            </div> */}
         </div>
     );
 };

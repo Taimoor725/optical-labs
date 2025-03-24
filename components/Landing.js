@@ -14,7 +14,7 @@ export default function Landing() {
       </div>
 
 
-    <BackgroundGradientAnimation/>
+        {/* <BackgroundGradientAnimation/> */}
 
 
     </div>

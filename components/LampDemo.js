@@ -11,7 +11,7 @@ export function LampDemo() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
-        className="text-center text-white mt-10"
+        className="text-center text-white mt-10 lg:-translate-y-5 translate-y-40"
       >
         <h2 className="text-3xl md:text-5xl font-semibold mb-4">
           Get in Touch
@@ -25,7 +25,7 @@ export function LampDemo() {
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.5, duration: 0.6, ease: "easeOut" }}
-        className="mt-6 flex flex-col items-center"
+        className="mt-6 flex flex-col items-center lg:-translate-y-5 translate-y-40"
       >
         <a href="mailto:info@opticallabs.com" className="text-lg md:text-xl text-[#52CBBE] font-semibold hover:text-white transition">
           info@opticallabs.com
@@ -36,7 +36,7 @@ export function LampDemo() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8, ease: "easeInOut" }}
-        className="mt-6 flex gap-6"
+        className="mt-6 flex gap-6 lg:-translate-y-5 translate-y-40"
       >
         {socialIcons.map(({ id, icon, href }) => (
           <a
